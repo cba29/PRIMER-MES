@@ -1,24 +1,13 @@
-# Primer mes con Edith ❤️
+# Nuestro primer mes — Edith y Christian
 
-Sitio estático: no requiere npm, Vite ni compilación.
+Página estática para celebrar el 20 de noviembre de 2026. Inicio de relación: 20 de octubre de 2026.
 
-## Subir a GitHub
+## Publicar en GitHub y Netlify
 
-Descomprime el ZIP y sube **todos los archivos sueltos** al nivel principal del repositorio (incluidos .webp, .mp3 y .mp4). No subas el ZIP.
+1. Descomprime el ZIP.
+2. Sube **todos los archivos** directamente a la raíz de tu repositorio GitHub, incluyendo las fotos .webp, el MP3, el MP4, index.html, main.js y style.css.
+3. En Netlify, usa **Build command vacío** y **Publish directory `.`**. No se necesita npm ni package.json.
+4. Elimina un netlify.toml anterior si contiene `npm run build`.
+5. Para editar textos, fotos o fecha, abre `main.js` y modifica el objeto CONFIG al principio.
 
-## Publicar con Netlify
-
-En Netlify, importa el repositorio desde GitHub. En Build settings deja **Build command vacío** y configura **Publish directory** como `.` (raíz). Si ya tenías un sitio Vite, borra la orden `npm run build` de Site configuration → Build & deploy → Build settings, o crea un sitio nuevo.
-
-También puedes publicar en GitHub Pages desde Settings → Pages → Deploy from a branch → main / (root).
-
-## Editar
-
-- `index.html`: estructura base.
-- `style.css`: estilos y animaciones.
-- `main.js`: textos, fotos, razones y fecha en el objeto CONFIG al inicio.
-- Fotos, video y MP3: están todos en la raíz junto con index.html.
-
-Fecha de inicio confirmada: 20/10/2026. La música solo comienza cuando se pulsa su botón.
-
-Prueba abriendo `index.html` en tu navegador.
+La música solo se reproduce al pulsar el botón. Las fotos y el video son los archivos originales proporcionados.
