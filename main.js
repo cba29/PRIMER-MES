@@ -2,16 +2,16 @@
 // suponiendo que el primer mes se celebra el 20/11/2026.
 const CONFIG = {
   nombre: 'Edith',
-  autor: 'Christian Barraza Antezana',
+  autor: 'ChristianB.A',
   fechaInicio: '2026-10-20T00:00:00-05:00',
   musica: 'nuestra-cancion.mp3',
   video: 'sucre.mp4',
   momentos: [
-    { lugar:'Sucre', titulo:'Donde empezó a cambiar todo', texto:'La primera vez que viniste a Sucre, algo comenzó a despertar en mí. Todavía no sabía cómo llamarlo, pero hoy sé que fue el comienzo de algo precioso.', tipo:'video', imagen:'juntos.webp' },
-    { lugar:'Cangallo', titulo:'La noche en que lo comprendí', texto:'Aquella noche entendí que lo que sentía por ti ya no era solamente amistad. Mi corazón empezaba a mirarte de otra manera.', imagen:'cangallo.webp' },
-    { lugar:'Hualla · Su internado', titulo:'Donde nos conocimos', texto:'Nos conocimos en Hualla, cuando hacías tu internado de Enfermería. Me quedé aquella última semana y, sin darme cuenta, empecé a querer que los días duraran más. Desayunábamos juntos, compartíamos casi todo y, cuando llegó el momento de irnos, regresamos juntos. Son recuerdos sencillos que hoy significan muchísimo para mí.', imagen:'juntos.webp' },
+    { lugar:'Sucre', titulo:'Donde empezó a cambiar todo', texto:'La primera vez que viniste a Sucre jaja bonintas curvas, despertaste algo más en mí. Todavía no sabía cómo llamarlo, pero hoy sé que fue el comienzo de algo precioso.', tipo:'video', imagen:'juntos.webp' },
+    { lugar:'Cangallo', titulo:'La noche en que lo comprendí que te queria en mí día a día', texto:'Aquella noche entendí que lo que sentía por ti ya no era solamente amistad. Mi corazón empezaba a mirarte de otra manera.', imagen:'cangallo.webp' },
+    { lugar:'Hualla · Tu internado', titulo:'Donde nos conocimos', texto:'Nos conocimos en Hualla, cuando hacías tu internado de Enfermería. Me quedé aquella última semana y, sin darme cuenta, empecé a querer que los días duraran más. Desayunábamos juntos, compartíamos casi todo y, cuando llegó el momento de irnos, regresamos juntos. Son recuerdos sencillos que hoy significan muchísimo para mí.', imagen:'juntos.webp' },
     { lugar:'Hualla', titulo:'Quería seguir viéndote', texto:'Volví a buscarte a Hualla porque ya me hacía ilusión estar contigo. Recordaba nuestros desayunos, nuestras conversaciones y esa última semana en la que compartimos tanto. Me gustaba cómo nos íbamos haciendo más cercanos.', imagen:'hualla.webp' },
-    { lugar:'El mirador', titulo:'Una tarde que guardo conmigo', texto:'Aquella tarde que salimos al mirador quedó guardada entre mis recuerdos favoritos. El paisaje era hermoso, pero tú hacías especial ese momento.', imagen:'mirador.webp' },
+    { lugar:'La tarde del mirador', titulo:'Una tarde que guardo conmigo', texto:'Aquella tarde que salimos al mirador quedó guardada entre mis recuerdos favoritos. El paisaje era hermoso, pero tú hacías especial ese momento.', imagen:'mirador.webp' },
     { lugar:'Nuestro día', titulo:'El día de nuestro sí', texto:'Reuní el valor para pedirte que estuviéramos juntos… y dijiste que sí. Ese instante se convirtió en el inicio oficial de nuestra historia.', imagen:'nuestro-si.webp' }
   ],
   fotos: [
